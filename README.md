@@ -17,25 +17,25 @@ The Product Inventory Management System is a command line REPL application that 
 
 1. Clone the repository:
 
-   git clone https://github.com/majazulhaque/goKart.git
+   `git clone https://github.com/majazulhaque/goKart.git`
 
 2. Navigate to the project directory:
 
-   cd goKart
+   `cd goKart`
 
 3. Install the dependencies:
 
-   npm install
+   `npm install`
 
 4. Start the server:
 
-   npm start
+   `npm start`
 
 5. The server should now be running at http://localhost:8000
 
 ## Usage
 
-To use the Product Inventory Management System, you can interact with it through a REPL (Read-Eval-Print Loop) interface or use the provided API endpoints with tools like Postman.
+To use the Product Inventory Management System, you can interact with it through a REPL (Read-Eval-Print Loop) interface or use the provided API endpoints with tools like POSTMAN.
 
 - THROUGH REPL:
 
@@ -43,11 +43,11 @@ To use the Product Inventory Management System, you can interact with it through
 
 2. Single commands or Multiple commands can be entered at a time.
 3. If Multiple commands is entered at a time then each commands is seperated by " ; ".
-   e.g., ADD_WAREHOUSE CY3556 Warehouse-C Maharashtra (19.7515,7139) 10 ; ADD_STATE Maharashtra ; GET_CUSTOMER 64a701c251f5c92a3cf8dcb9
+   e.g., `ADD_WAREHOUSE CY3556 Warehouse-C Maharashtra (19.7515,7139) 10 ; ADD_STATE Maharashtra ; GET_CUSTOMER 64a701c251f5c92a3cf8dcb9`
 
 4. Each attribute is entered without SPACING BETWEEN THEM.
-   e.g., Warehouse C (NOT ALLOWED)
-   Warehouse-C (ALLOWED)
+   e.g., `Warehouse C` (NOT ALLOWED)
+   `Warehouse-C` (ALLOWED)
 
 - THROUGH POSTMAN:
 
