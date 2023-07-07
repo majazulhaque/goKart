@@ -8,4 +8,5 @@ router.get("/", WarehouseController.getWarehouses);
 router.post("/add", WarehouseController.add);
 router.get("/:warehouseNumber", WarehouseController.getWarehouseInfo);
 
+
 module.exports = router;
