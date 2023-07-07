@@ -3,6 +3,8 @@ const Stock = require("../models/Stock");
 
 const haversine = require("haversine-distance");
 
+
+// Function to GET WAREHOUSES
 module.exports.getWarehouses = async function (req, res) {
   try {
     const warehouses = await Warehouse.find({});
@@ -18,6 +20,8 @@ module.exports.getWarehouses = async function (req, res) {
   }
 };
 
+
+// Function to ADD WAREHOUSE
 module.exports.add = async (req, res) => {
   try {
     const { warehouseNumber, warehouseName, state, location, stockLimit } =
@@ -74,7 +78,7 @@ module.exports.add = async (req, res) => {
   }
 };
 
-// Warehouse info
+// Warehouse info using WarehouseNumber
 module.exports.getWarehouseInfo = async function (req, res) {
   try {
     const { warehouseNumber } = req.params;

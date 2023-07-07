@@ -4,6 +4,8 @@ const Stock = require("../models/Stock");
 const haversine = require("haversine-distance");
 
 // REPL IMPLEMENTATION
+
+// Function to ADD WAREHOUSE
 async function addWarehouse(args) {
   try {
     const [warehouseNumber, warehouseName, state, location, stockLimit] = args;
@@ -60,7 +62,7 @@ async function addWarehouse(args) {
   }
 }
 
-// LIST WAREHOUSE
+// Function to LIST WAREHOUSE
 async function listWarehouses() {
   try {
     const warehouses = await Warehouse.find({});
@@ -78,7 +80,7 @@ async function listWarehouses() {
   }
 }
 
-// GET WAREHOUSE INFO
+// Function to GET WAREHOUSE INFO
 async function getWarehouseInfo(args) {
   try {
     const [warehouseNumber] = args;

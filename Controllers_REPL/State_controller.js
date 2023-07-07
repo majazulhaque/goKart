@@ -3,6 +3,8 @@ const Warehouse = require("../models/Warehouse");
 
 // REPL IMPLEMENTATION
 
+
+// Function to ADD STATE
 async function addState(args) {
   try {
     const [state] = args;
@@ -26,6 +28,8 @@ async function addState(args) {
   }
 }
 
+
+// Function to VIEW STATES
 async function viewStates() {
   try {
     const states = await State.find({});

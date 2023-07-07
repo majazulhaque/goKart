@@ -1,6 +1,8 @@
 // REPL IMPLEMENTATIONS
 const Customer = require("../models/Customer");
 
+
+// Function to ADD CUSTOMER
 async function addCustomer(args) {
   try {
     const [name, email, address, phoneNumber] = args;
@@ -18,6 +20,8 @@ async function addCustomer(args) {
     return { error: "Error while creating customer", message: error.message };
   }
 }
+
+// Function to UPDATE CUSTOMER
 async function updateCustomer(args) {
   try {
     const [customerId, name, email, address, phoneNumber] = args;
@@ -42,6 +46,8 @@ async function updateCustomer(args) {
     return { error: "Error while updating customer", message: error.message };
   }
 }
+
+// Function to GET CUSTOMER using ID
 async function getCustomer(args) {
   try {
     const [customerId] = args;
@@ -57,6 +63,8 @@ async function getCustomer(args) {
     return { error: "Error while fetching customer", message: error.message };
   }
 }
+
+// Function to DELETE CUSTOMER
 async function deleteCustomer(args) {
   try {
     const [customerId] = args;
@@ -73,6 +81,8 @@ async function deleteCustomer(args) {
   }
 }
 
+
+// Function to LIST CUSTOMER
 async function listCustomer() {
   try {
     // Retrieve all customers from the database

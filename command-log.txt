@@ -13,3 +13,13 @@ ADD_PRODUCT Product12 12378 Category_F Sub_Category_F http://example.com/image23
 WAREHOUSE_INFO GT0548
 VIEW_ORDERS
 VIEW_STATE
+VIEW_ORDERS
+VIEW_ORDERS
+VIEW_STATE
+LIST_PRODUCTS
+
+LIST_WAREHOUSES
+LIST_CUSTOMER
+ADD_CUSTOMER SharzelHaque sharzel98@gmail.com Chota_Bhagada_Prayagraj,210010 1234565432
+ADD_STATE kashmir
+ADD_PRODUCT Product-111 12395 Category-T Subcategory-H http://example.com/image23.jpg

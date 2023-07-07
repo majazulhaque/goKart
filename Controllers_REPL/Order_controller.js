@@ -5,6 +5,8 @@ const Customer = require("../models/Customer");
 const Product = require("../models/Product");
 
 // REPL IMPLEMENTATIONS
+
+// Function to ORDER PROCESS
 async function processOrder(args) {
   try {
     const [customerId, sku, orderQuantity, customerLocation] = args;
@@ -67,6 +69,8 @@ async function processOrder(args) {
   }
 }
 
+
+// Function to VIEW ORDERS
 async function viewOrders() {
   try {
     // Retrieve all orders from the database

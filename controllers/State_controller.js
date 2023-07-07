@@ -1,6 +1,8 @@
 const State = require("../models/State");
 const Warehouse = require("../models/Warehouse");
 
+
+// Function to GET ALL STATES
 module.exports.getStates = async function (req, res) {
   try {
     const states = await State.find({});
@@ -35,6 +37,8 @@ async function calculateTotalStockCapacity(state) {
   return totalCapacity;
 }
 
+
+// Function to ADD STATES
 module.exports.add = async (req, res) => {
   try {
     const { state } = req.body;

@@ -2,6 +2,8 @@ const readline = require("readline");
 const { processCommand } = require("./commandProcessor");
 const fs = require("fs");
 
+
+// Function to start REPL
 async function startREPL() {
   const rl = readline.createInterface({
     input: process.stdin,

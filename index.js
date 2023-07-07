@@ -1,15 +1,15 @@
-require('dotenv').config();
-const express = require("express");
-const repl = require("./repl");
+require('dotenv').config();    // import dotenv to use process.env
+const express = require("express");   // require to run server 
+const repl = require("./repl");      // To implement REPL command
 const path = require("path");
 const port = process.env.PORT || 8000;
 const app = express();
 
 
 // Add config mongoose
-const db = require("./config/mongoose");
+const db = require("./config/mongoose");    
 
-
+// To use json format
 app.use(express.json());
 
 // Add routes

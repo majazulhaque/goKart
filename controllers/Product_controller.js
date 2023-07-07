@@ -2,6 +2,7 @@ const Product = require("../models/Product");
 const Stock = require("../models/Stock");
 const Warehouse = require("../models/Warehouse");
 
+// Function to GET PRODUCTS
 module.exports.getProducts = async function (req, res) {
   try {
     const products = await Product.find({});
@@ -45,6 +46,7 @@ async function getInStockWarehouses(productName) {
   return inStockWarehouses;
 }
 
+// Function to ADD PRODUCT
 module.exports.add = async function (req, res) {
   try {
     const { productName, skuId, category, subCategory, imageLink } = req.body;

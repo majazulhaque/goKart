@@ -3,6 +3,8 @@ const Stock = require("../models/Stock");
 const Warehouse = require("../models/Warehouse");
 
 // REPL IMPLEMENTATION
+
+// Function to ADD PRODUCT
 async function addProduct(args) {
   try {
     const { productName, skuId, category, subCategory, imageLink } = args;
@@ -28,6 +30,7 @@ async function addProduct(args) {
   }
 }
 
+// Function to LIST PRODUCTS
 async function listProducts() {
   try {
     const products = await Product.find({});

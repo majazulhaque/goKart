@@ -4,6 +4,8 @@ const Product = require("../models/Product");
 const Warehouse = require("../models/Warehouse");
 const Stock = require("../models/Stock");
 
+
+// Function to ADD STOCK
 async function addStock(args) {
   try {
     const [sku, warehouseNumber, quantity] = args;

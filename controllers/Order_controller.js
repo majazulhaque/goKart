@@ -4,6 +4,8 @@ const Stock = require("../models/Stock");
 const Customer = require("../models/Customer");
 const Product = require("../models/Product");
 
+
+// Function to Process Order
 module.exports.processOrder = async (req, res) => {
   try {
     const { customerId, sku, orderQuantity, customerLocation } = req.body;
@@ -141,7 +143,7 @@ function degToRad(degrees) {
   return degrees * (Math.PI / 180);
 }
 
-// View Order
+// Function to View Order
 exports.viewOrders = async (req, res) => {
   try {
     // Retrieve all orders from the database
