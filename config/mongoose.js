@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://majazhaq98:AEzVHBJ9YGgKR7Qn@cluster0.w8w5ggy.mongodb.net/goKart',{useNewUrlParser: true,useUnifiedTopology: true});
+mongoose.connect(process.env.MONGO_URI,{useNewUrlParser: true,useUnifiedTopology: true});
 
 // acquire the connection
 const db = mongoose.connection;
