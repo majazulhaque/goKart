@@ -57,7 +57,7 @@ To use the Product Inventory Management System, you can interact with it through
 
 1. ADD CUSTOMER:
 
-    ADD_CUSTOMER SharzelHaque sharzel98@gmail.com Chota_Bhagada_Prayagraj,210010 1234565432
+    `ADD_CUSTOMER SharzelHaque sharzel98@gmail.com Chota_Bhagada_Prayagraj,210010 1234565432`
 
     ![Addd_customer](https://github.com/majazulhaque/goKart/assets/74106414/598a7917-0717-4f7a-91b6-b4f4c2e109b2)
 
