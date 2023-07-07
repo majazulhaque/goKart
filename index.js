@@ -3,7 +3,7 @@ const path = require("path");
 const port = 8000;
 const app = express();
 
-
+const db = require("./config/mongoose");
 
 
 // Run the server on port 8000
