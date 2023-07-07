@@ -1,5 +1,6 @@
 require('dotenv').config();
 const express = require("express");
+const repl = require("./repl");
 const path = require("path");
 const port = process.env.PORT || 8000;
 const app = express();
@@ -24,3 +25,4 @@ app.listen(port, function (err) {
   console.log(`Server is set up at port: ${port}`);
 });
 
+repl.startREPL();
