@@ -1,0 +1,15 @@
+ADD_PRODUCT "Product 1" 12345 "Category A" "Sub-Category B"; ADD_PRODUCT "Product 2" 54321 "Category B" "Sub-Category C"
+ADD_PRODUCT "Product 1" 12345 "Category A" "Sub-Category B"; ADD_PRODUCT "Product 2" 54321 "Category B" "Sub-Category C"
+ADD_PRODUCT Product5 12342 Category_B Sub_Category_B http://example.com/image23.jpg;ADD_STATE Madhya_Pradesh
+ADD_PRODUCT Product7 12343 Category_C Sub_Category_C http://example.com/image23.jpg; ADD_STATE Madhya_Pradesh
+ADD_PRODUCT Product9 12344 Category_D Sub_Category_D http://example.com/image23.jpg ; ADD_STATE Madhya_Pradesh
+ADD_PRODUCT Product11 12341 Category_E Sub_Category_E http://example.com/image23.jpg , ADD_STATE Madhya_Pradesh
+ADD_PRODUCT Product11 12341 Category_E Sub_Category_E http://example.com/image23.jpg , ADD_STATE Madhya_Pradesh
+ADD_PRODUCT Product12 12378 Category_F Sub_Category_F http://example.com/image23.jpg , ADD_STATE Rajasthan , VIEW_ORDERS , VIEW_STATE , LIST_PRODUCTS
+ADD_PRODUCT Product12 12378 Category_F Sub_Category_F http://example.com/image23.jpg , ADD_STATE Rajasthan , VIEW_ORDERS , VIEW_STATE , LIST_PRODUCTS
+ADD_PRODUCT Product12 12378 Category_F Sub_Category_F http://example.com/image23.jpg , ADD_STATE Rajasthan , VIEW_ORDERS , VIEW_STATE , LIST_PRODUCTS
+ADD_PRODUCT Product12 12378 Category_F Sub_Category_F http://example.com/image23.jpg , ADD_STATE Rajasthan , VIEW_ORDERS , VIEW_STATE , LIST_PRODUCTS
+ADD_PRODUCT Product12 12378 Category_F Sub_Category_F http://example.com/image23.jpg , ADD_STATE Rajasthan , VIEW_ORDERS , VIEW_STATE , LIST_PRODUCTS
+WAREHOUSE_INFO GT0548
+VIEW_ORDERS
+VIEW_STATE
