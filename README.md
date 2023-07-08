@@ -33,6 +33,8 @@ The Product Inventory Management System is a command line REPL application that 
 
 5. The server should now be running at http://localhost:8000
 
+6. MongoDB is used to store Data, I uploaded my MongoDB URL,so it will be easy to evaluate without adding new Mongo DB URL and some data is already stored in uploaded URL, If any Issue comes with MONGO_URI.Then please change `process.env.MONGO_URI` in mongoose.js file to localhost `mongodb://127.0.0.1:27017/goKart`.
+
 ## Usage
 
 To use the Product Inventory Management System, you can interact with it through a REPL (Read-Eval-Print Loop) interface or use the provided API endpoints with tools like POSTMAN.
